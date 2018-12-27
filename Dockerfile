@@ -1,5 +1,6 @@
-FROM tomcat:7
-MAINTAINER Jan Garaj info@monitoringartist.com
+FROM tomcat:8
+LABEL "author"="Jan Garaj info@monitoringartist.com"
+LABEL "maintainer"="Eamon Bauman eamon@eamonbauman.com"
 
 ENV \
   JS_VERSION=6.3.0 \
